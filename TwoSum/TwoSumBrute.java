@@ -1,6 +1,8 @@
+package TwoSum;
+
 import java.util.Arrays;
 
-public class TwoSum{
+public class TwoSumBrute{
     public static void main(String[] args) {
 
         int arr[] = {1,2,3,4,5,6,7};
@@ -25,3 +27,14 @@ public class TwoSum{
     }
 
 }
+
+/*  
+    PS C:\Users\anujj\Desktop\LeetCodePractice> javac TwoSum/TwoSum.java
+    PS C:\Users\anujj\Desktop\LeetCodePractice> java TwoSum.TwoSum      
+    [0, 3]
+
+    PS C:\Users\anujj\Desktop\LeetCodePractice\TwoSum> javac -d . TwoSum.java
+    PS C:\Users\anujj\Desktop\LeetCodePractice\TwoSum> java TwoSum.TwoSum
+    [0, 3]
+
+ */
